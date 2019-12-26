@@ -17,7 +17,8 @@ def key_for_min_value(hash)
   return nil if hash.empty?
   
   hash.each do |key, value|
-   if value < min_value 
+   if min_value = nil 
+     
      min_key =
     end
   
