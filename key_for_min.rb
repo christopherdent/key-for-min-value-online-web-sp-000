@@ -11,6 +11,8 @@ require 'pry'
 
 
 def key_for_min_value(hash)
+  min_key = nil
+  min_value = nil 
   
   if hash.empty?
     return nil 
