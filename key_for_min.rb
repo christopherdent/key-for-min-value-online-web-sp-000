@@ -20,6 +20,8 @@ def key_for_min_value(hash)
    if min_value = nil 
      min_value = value 
      min_key = key 
+   elsif value < min_value 
+    
    end
   
   
