@@ -14,15 +14,11 @@ def key_for_min_value(hash)
   min_key = nil
   min_value = nil 
   
-  if hash.empty?
-    return nil 
-  else  
+  return nil if hash.empty?
   
-  
-    hash.each do |key, value|
-      
-      
-      puts "#{key}: #{value}"
+  hash.each do |key, value|
+   if value < min_value 
+     min_key =
     end
   
   
